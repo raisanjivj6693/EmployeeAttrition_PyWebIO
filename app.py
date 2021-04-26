@@ -21,10 +21,8 @@ def predict():
     overtime = select("Employee having Overtime :", ['Yes', 'No'])
     if(overtime=='Yes'):
         overtime=1
-        overtime=0
     else:
         overtime=0
-        overtime=1
 
     DistanceFromHome = input("Enter the Employee's Home Distance from Office' :", type=NUMBER)
 
